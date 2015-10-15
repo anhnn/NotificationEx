@@ -11,6 +11,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+/**
+ * Author: Nguyen Ngoc Anh
+ * Email: anhnnst@yahoo.com
+ * Tel: 084.905119948
+ *
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
