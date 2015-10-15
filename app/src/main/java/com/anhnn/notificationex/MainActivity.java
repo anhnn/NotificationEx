@@ -25,6 +25,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    /**
+     * Do notification
+     * @param view
+     */
     public void doNotify(View view) {
         NotificationCompat.Builder mBuilder =
                 new NotificationCompat.Builder(this)
