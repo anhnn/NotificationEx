@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * Do notification
-     * @param view
+     * @param view View Widget
      */
     public void doNotify(View view) {
         NotificationCompat.Builder mBuilder =
@@ -86,8 +86,8 @@ public class MainActivity extends AppCompatActivity {
      * This lesson describes how to incorporate big view notifications into your app
      * while still providing full functionality via the normal view.
      * See the Notifications API guide for more discussion of big views.
-     *
-     * @param view
+     * Big View model
+     * @param view View widget
      */
     public void doNotifyBigView(View view) {
         Intent resultIntent = new Intent(this, ResultActivity.class);
